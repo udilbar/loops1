@@ -61,4 +61,30 @@ body {
 }
 .header-text {
     max-width: 500px;
+    margin-bottom: 50px;
+}
+.details-box {
+    position: relative;
+    z-index: 1;
+}
+.details-body {
+    display: flex;
+}
+.details-row {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    width: 250px;
+    height: 300px;
+    padding-left: 50px;
+}
+.details-row-brown {
+    background-color: #3f3232;
+}
+.details-row-dark {
+    background-color: #1f1616;
+}
+.details-row-black {
+    background-color: #181616;
 }
