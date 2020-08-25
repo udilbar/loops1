@@ -69,6 +69,7 @@ body {
 }
 .details-body {
     display: flex;
+    box-shadow: 0 0 10px 2px #333;
 }
 .details-row {
     display: flex;
@@ -87,4 +88,11 @@ body {
 }
 .details-row-black {
     background-color: #181616;
+}
+.details-heading {
+    font-size: 16px;
+    color: #c56071;
+}
+.details-data {
+    font-size: 26px;
 }
