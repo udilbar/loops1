@@ -10,6 +10,10 @@ body {
     margin: 0;
     padding: 0;
     font-family: "Roboto", "Arial", sans-serif;
+    background-color: #e97788;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #fff;
 }
 .visually-hidden {
     position: absolute;
@@ -20,4 +24,45 @@ body {
     padding: 0;
     clip: rect(0 0 0 0);
     overflow: hidden;
-  }
+}
+.container {
+    max-width: 1400px;
+    padding: 20px 0;
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.header-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-size: 40px;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
+.header-item {
+    margin-right: 40px;
+}
+.header-item:last-child {
+    margin-right: 0;
+}
+.header-link {
+    text-decoration: none;
+    color: rgba(245, 238, 238, 0.5);
+    transition: color 0.4s ease;
+}
+.header-link:active,
+.header-link:focus,
+.active {
+    color: #fff;
+}
+.header-link:hover {
+    color: rgba(245, 238, 238, 0.6);
+}
+.header-text {
+    max-width: 500px;
+}
